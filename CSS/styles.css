@@ -1,0 +1,246 @@
+body{
+    background-color: #684a46;
+}
+h1,a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+}
+em{
+    font-size: 1.1rem;
+}
+hr{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+}
+.sections{
+    position: relative;
+    top: 4.5rem; 
+}
+/* navbar */
+.navContainer{
+    background-color: #c8a39ab4;
+}
+.container-fluid{
+    padding:0;
+}
+.title{
+    position: relative;
+    top: 10px;
+}
+.navbar-brand{
+    margin-right: 20%;
+    font-weight:900 ;
+    margin-left: 5%;
+    font-size: 2rem;
+}
+.nav-link{
+    margin-right: 5rem;
+    font-weight: 500;
+    font-size: 150%;
+    color: #684a46;
+}
+
+
+.contactMeInNav{
+    margin-right: 0px;
+}
+
+
+/* skills */
+#skills{
+    background-image: url("../backgrounds/background.jpg");
+    height: 1080px;
+
+}
+.Heading{
+    font-weight: 500;
+    font-size: 150%;
+    color: #684a46;
+}
+
+.Text p{
+    background-color: #c8a39a31;
+    border-radius: 2%;
+    padding: 1rem;
+    margin: 15% 10%;
+    box-shadow: -5px 5px 15px #684a46;
+    font-weight: 500;
+}
+
+
+.circle img{
+    position: relative;
+    left: 75%;
+    width: 25%;
+    opacity: 0.5;
+    
+}
+.html,.css,.JS,.python,.bootStrap,.jquery{
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    z-index: 1;
+}
+.html{
+    right: 15%;
+}
+.bootStrap{
+    top: 35%;
+    right: 15%;
+}
+.css{
+    right: 25%;
+}
+.JS{
+    right: 35%;
+}
+.python{
+    right: 45%;
+}
+.jquery{
+    top: 35%;
+    right: 35%;
+}
+.html:hover,.css:hover,.JS:hover,.python:hover,.bootStrap:hover,.jquery:hover{
+    text-shadow: 1px 4px 20px #684a465d;
+}
+
+
+
+/* about me */
+
+#aboutMe{
+    background-image: url("../backgrounds/background4.jpg");
+    height: 1080px;
+    opacity: 0.9;
+
+}
+.circle-aboutme img{
+    position: relative;
+    left: 50%;
+    width: 50%;
+    opacity: 0.5;
+    top: 5rem;
+}
+.aboutMe{
+    position: relative;
+    top: 110px;
+}
+
+/* projects */
+#projects{
+    position: relative;
+    text-align: center;
+
+}
+.projectsMain{
+    background-color: #dcd6d2;
+    
+}
+.card{
+    margin: auto;
+    width: 30rem;
+    height: 25rem;
+    background-color: #c8a39a31;
+}
+/* resume */
+#resume{
+    padding: 4.5rem 0;
+    text-align: center;
+    background-color:#dcd6d2 ;
+}
+.show{
+    visibility: hidden;
+}
+.fa-file-pdf{
+    opacity: 0.5;
+    margin-bottom:15px ;
+}
+.resumeImg2{
+    text-align: left;
+}
+.resumeImg{
+    text-align: right;
+}
+
+/* contact me */
+.contactMe{
+    text-align: center;
+    background-color: #c8a39ab4;
+    padding: 2rem;
+}
+.icons-footer{
+    padding: 1rem;
+}
+.icons-footer i{
+    margin:20px 100px;
+}
+.contact-me-info p{
+    display: inline-block;
+    padding: 0 3.5rem;
+    margin: 0;
+    
+}
+/* footer */
+#footer{
+    text-align: center;
+    background-color:#c8a39ab4 ;
+    padding: 10px;
+
+}
+
+
+/*****************/
+.col-lg-6,.col-lg-9,.col-lg-3,.row{
+    padding: 0;
+    margin: 0;
+}
+/*****************/
+
+@media only screen and (max-width: 1090px){
+    /* skills */
+
+    .skillsText p{
+        margin: 20% 5%;
+    }
+    .circle img, .circle-aboutme img{
+        visibility: hidden;
+    }
+
+    /* skills icons */
+    .html,.css,.JS,.python,.bootStrap,.jquery{
+        top: 50%;
+    }
+    .html{
+        right: 15%;
+    }
+    .bootStrap{
+        top: 65%;
+        right: 15%;
+    }
+    .css{
+        right: 35%;
+    }
+    .JS{
+        right: 55%;
+    }
+    .python{
+        right: 75%;
+    }
+    .jquery{
+        top: 65%;
+        right: 55%;
+    }
+
+
+/* resume */
+.resumeImg{
+    text-align: center;
+    width: 50%;
+}
+.resumeImg2{
+    text-align: center;
+
+}
+}
