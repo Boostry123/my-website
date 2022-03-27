@@ -1,6 +1,5 @@
 // icons fade
 
-
 $(".fa-brands").hover(function () {
     $(this).toggleClass("fa-fade");
 }
@@ -45,11 +44,7 @@ $(".icons-footer .fa-gmail").on("click", function(){
     $(".contactShow-gmail").toggleClass("show");
 })
 
-// $(".fa-file-pdf").animate({opacity:1});
 
-// text animation on top of page
-
-//download button for resume
 
 
 
