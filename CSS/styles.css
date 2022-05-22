@@ -9,10 +9,12 @@ em{
 }
 hr{
     position: relative;
-    text-align: center;
     width: 50%;
     left: 25%;
+    border: dotted 5px black;
+    border-bottom: 0;
 }
+
 .sections{
     position: relative;
     top: 4.5rem; 
@@ -58,44 +60,26 @@ hr{
     font-weight: 500;
 }
 
+.icons{
+    margin:15% 10% ;
+}
+.icons th{
+    padding: 3rem;
+    
+}
+.icons tr{
+    text-align: center;   
+}
 
-.circle img{
-    position: relative;
-    left: 75%;
-    width: 25%;
+.circle{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 10%;
     opacity: 0.5;
     
 }
-.html,.css,.JS,.python,.bootStrap,.jquery,.nodeJs{
-    position: absolute;
-    text-align: center;
-    top: 20%;
-    z-index: 1;
-}
-.html{
-    right: 15%;
-}
-.bootStrap{
-    top: 30%;
-    right: 15%;
-}
-.css{
-    right: 25%;
-}
-.JS{
-    right: 35%;
-}
-.python{
-    right: 45%;
-}
-.jquery{
-    top: 30%;
-    right: 35%;
-}
-.nodeJs{
-    top: 40%;
-    right: 35%;
-}
+
 .html:hover,.css:hover,.JS:hover,.python:hover,.bootStrap:hover,.jquery:hover{
     text-shadow: 1px 4px 20px #684a465d;
 }
@@ -130,10 +114,12 @@ hr{
 }
 .card{
     margin: auto;
+    margin-bottom: 50px;
     width: 500px;
     height: auto;
     background-color: #c8a39a31;
     filter:brightness(70%);
+    transition-duration: 0.6s;
     padding: 10px;
 }
 .card:hover{
@@ -141,23 +127,9 @@ hr{
 }
 
 /* resume */
-#resume{
-    padding: 4.5rem 0;
-    text-align: center;
-    background-color:#dcd6d2 ;
-}
+
 .showIt{
     visibility: hidden;
-}
-.fa-file-pdf{
-    opacity: 0.5;
-    margin-bottom:15px ;
-}
-.resumeImg2{
-    text-align: left;
-}
-.resumeImg{
-    text-align: right;
 }
 
 /* contact me */
@@ -165,6 +137,7 @@ hr{
     text-align: center;
     background-color: #c8a39ab4;
     padding: 2rem;
+    
 }
 .icons-footer{
     padding: 1rem;
@@ -183,6 +156,7 @@ hr{
     text-align: center;
     background-color:#c8a39ab4 ;
     padding: 10px;
+    
 
 }
 
@@ -200,37 +174,14 @@ hr{
     .skillsText p{
         margin: 20% 5%;
     }
-    .circle img, .circle-aboutme img{
+    .circle{
         visibility: hidden;
     }
 
     /* skills icons */
-    .html,.css,.JS,.python,.bootStrap,.jquery{
-        top: 50%;
-    }
-    .html{
-        right: 15%;
-    }
-    .bootStrap{
-        top: 65%;
-        right: 15%;
-    }
-    .css{
-        right: 35%;
-    }
-    .JS{
-        right: 55%;
-    }
-    .python{
-        right: 75%;
-    }
-    .jquery{
-        top: 65%;
-        right: 55%;
-    }
-    .nodeJs{
-        top: 75%;
-        right: 55%;
+    .icons th{
+        padding: 1rem;
+        
     }
 
 

@@ -8,21 +8,16 @@ $(".fa-brands").hover(function () {
 
 
 // circle     
-$(".circle img").on("mouseover", function () {
-    $(".circle img").animate({ opacity: "1" })
+$(".circle").on("mouseover", function () {
+    $(".circle").animate({ opacity: "1" })
 })
-$(".circle img").on("mouseout", function () {
-    $(".circle img").animate({ opacity: "0.5" })
+$(".circle").on("mouseout", function () {
+    $(".circle").animate({ opacity: "0.5" })
 });
 
 
 
-$(".circle-aboutme img").on("mouseover", function () {
-    $(".circle-aboutme img").animate({ opacity: "1" })
-})
-$(".circle-aboutme img").on("mouseout", function () {
-    $(".circle-aboutme img").animate({ opacity: "0.5" })
-});
+
 
 // resume button
 
