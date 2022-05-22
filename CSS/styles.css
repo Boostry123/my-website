@@ -44,6 +44,14 @@ hr{
     color: #684a46;
     font-family: 'Stencil Std', 'fantasy';
 }
+.dot{
+    animation: blink 2s infinite;
+}
+
+@keyframes blink{
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+}
 
 /* skills */
 #skills{
@@ -184,7 +192,7 @@ hr{
 
     /* skills icons */
     .icons{
-        margin:0 5% ;
+        margin:0 2% ;
     }
     .icons th{
         padding: 0 1rem;
