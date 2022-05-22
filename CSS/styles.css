@@ -1,24 +1,19 @@
 body{
     background-color: #684a46;
 }
-h1,a{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+h1,a,h2{
+    font-family:'Montserrat', sans-serif;;
 }
 em{
     font-size: 1.1rem;
 }
 hr{
-    position: relative;
-    width: 50%;
-    left: 25%;
+    
     border: dotted 5px black;
     border-bottom: 0;
 }
 
-.sections{
-    position: relative;
-    top: 4.5rem; 
-}
+
 /* navbar */
 
 .navbar{
@@ -37,7 +32,18 @@ hr{
     font-size: 1.3rem;
     margin: 0 10px;
 }
-
+#heading{
+    margin: 2rem auto;
+    position: absolute;
+    z-index: 1;
+    left: 0; 
+    top: 5rem;
+    right: 0; 
+    width: 400px;
+    text-align: center;
+    color: #684a46;
+    font-family: 'Stencil Std', 'fantasy';
+}
 
 /* skills */
 #skills{
@@ -55,16 +61,16 @@ hr{
     background-color: #c8a39a31;
     border-radius: 2%;
     padding: 1rem;
-    margin: 15% 10%;
+    margin: 30% 10%;
     box-shadow: -5px 5px 15px #684a46;
     font-weight: 500;
 }
 
 .icons{
-    margin:15% 10% ;
+    margin:30% 10% ;
 }
 .icons th{
-    padding: 3rem;
+    padding: 0 3rem;
     
 }
 .icons tr{
@@ -74,7 +80,7 @@ hr{
 .circle{
     position: absolute;
     right: 0;
-    top: 0;
+    top: 3rem;
     width: 10%;
     opacity: 0.5;
     padding: 0;
@@ -99,15 +105,12 @@ hr{
 
 .aboutMe{
     text-align: center;
-    position: relative;
-    top: 110px;
+
 }
 
 /* projects */
 #projects{
-    position: relative;
     text-align: center;
-
 }
 .projectsMain{
     background-color: #dcd6d2;
@@ -172,16 +175,19 @@ hr{
 @media only screen and (max-width: 1090px){
     /* skills */
 
-    .skillsText p{
-        margin: 20% 5%;
+    .Text p{
+        margin: 40% 5%;
     }
     .circle{
         visibility: hidden;
     }
 
     /* skills icons */
+    .icons{
+        margin:0 5% ;
+    }
     .icons th{
-        padding: 1rem;
+        padding: 0 1rem;
         
     }
 
