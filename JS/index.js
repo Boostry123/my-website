@@ -26,22 +26,14 @@ $(".circle-aboutme img").on("mouseout", function () {
 
 // resume button
 
-$(".fa-file-pdf").on("mouseover", function () {
-    $(".fa-file-pdf").animate({opacity:1});
-});
-$(".fa-file-pdf").on("mouseout", function () {
-    $(".fa-file-pdf").animate({opacity:0.5});
-});
-$(".fa-file-pdf").on("click", function(){
-    $(".resumeImgShow").toggleClass("show");
-})
+
 
 //footer with contact
 $(".icons-footer .fa-linkedin").on("click", function(){
-    $(".contactShow-linkedin").toggleClass("show");
+    $(".contactShow-linkedin").toggleClass("showIt");
 })
 $(".icons-footer .fa-gmail").on("click", function(){
-    $(".contactShow-gmail").toggleClass("show");
+    $(".contactShow-gmail").toggleClass("showIt");
 })
 
 

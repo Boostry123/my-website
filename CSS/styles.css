@@ -18,32 +18,22 @@ hr{
     top: 4.5rem; 
 }
 /* navbar */
-.navContainer{
-    background-color: #c8a39ab4;
+
+.navbar{
+    background-color: #c8a39ab4 ;
 }
-.container-fluid{
-    padding:0;
+
+.navbar-center li{
+    margin: 0px 40px;
 }
-.title{
-    position: relative;
-    top: 10px;
-}
+
 .navbar-brand{
-    margin-right: 20%;
-    font-weight:900 ;
-    margin-left: 5%;
     font-size: 2rem;
+    margin: 0 10px 0 10px;
 }
-.nav-link{
-    margin-right: 5rem;
-    font-weight: 500;
-    font-size: 150%;
-    color: #684a46;
-}
-
-
-.contactMeInNav{
-    margin-right: 0px;
+.nav-item{
+    font-size: 1.3rem;
+    margin: 0 10px;
 }
 
 
@@ -76,7 +66,7 @@ hr{
     opacity: 0.5;
     
 }
-.html,.css,.JS,.python,.bootStrap,.jquery{
+.html,.css,.JS,.python,.bootStrap,.jquery,.nodeJs{
     position: absolute;
     text-align: center;
     top: 20%;
@@ -86,7 +76,7 @@ hr{
     right: 15%;
 }
 .bootStrap{
-    top: 35%;
+    top: 30%;
     right: 15%;
 }
 .css{
@@ -99,7 +89,11 @@ hr{
     right: 45%;
 }
 .jquery{
-    top: 35%;
+    top: 30%;
+    right: 35%;
+}
+.nodeJs{
+    top: 40%;
     right: 35%;
 }
 .html:hover,.css:hover,.JS:hover,.python:hover,.bootStrap:hover,.jquery:hover{
@@ -111,19 +105,15 @@ hr{
 /* about me */
 
 #aboutMe{
+    text-align: center;
     background-image: url("../backgrounds/background4.jpg");
     height: 1080px;
     opacity: 0.9;
 
 }
-.circle-aboutme img{
-    position: relative;
-    left: 50%;
-    width: 50%;
-    opacity: 0.5;
-    top: 5rem;
-}
+
 .aboutMe{
+    text-align: center;
     position: relative;
     top: 110px;
 }
@@ -140,17 +130,23 @@ hr{
 }
 .card{
     margin: auto;
-    width: 30rem;
-    height: 25rem;
+    width: 500px;
+    height: auto;
     background-color: #c8a39a31;
+    filter:brightness(70%);
+    padding: 10px;
 }
+.card:hover{
+    filter: brightness(100%);
+}
+
 /* resume */
 #resume{
     padding: 4.5rem 0;
     text-align: center;
     background-color:#dcd6d2 ;
 }
-.show{
+.showIt{
     visibility: hidden;
 }
 .fa-file-pdf{
@@ -230,6 +226,10 @@ hr{
     }
     .jquery{
         top: 65%;
+        right: 55%;
+    }
+    .nodeJs{
+        top: 75%;
         right: 55%;
     }
 
