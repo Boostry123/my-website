@@ -12,6 +12,14 @@ hr{
     border: dotted 5px black;
     border-bottom: 0;
 }
+img{
+    width: 500px;
+    height: 450px;
+}
+td{
+    white-space:nowrap
+}
+
 
 
 /* navbar */
@@ -84,6 +92,11 @@ hr{
 .icons tr{
     text-align: center;   
 }
+.icons tr:last-child{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
 
 .circle{
     position: absolute;
@@ -128,7 +141,6 @@ hr{
     margin: auto;
     margin-bottom: 50px;
     width: 500px;
-    height: auto;
     background-color: #c8a39a31;
     filter:brightness(70%);
     transition-duration: 0.6s;
@@ -195,9 +207,10 @@ hr{
         margin:0 2% ;
     }
     .icons th{
-        padding: 0 1rem;
+        padding: 0 1.3rem;
         
     }
+
 
 
 /* resume */
