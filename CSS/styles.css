@@ -94,6 +94,7 @@ td{
 .iconsDiv{
     display: grid;
     place-items: center;
+    margin: 0;
 }
 .icons th{
     padding: 0 3rem;
