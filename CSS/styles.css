@@ -174,14 +174,14 @@ td{
 .contactMe{
     text-align: center;
     background-color: #c8a39ab4;
-    padding: 2rem;
+    padding-top: 10px;
     
 }
 .icons-footer{
     padding: 1rem;
 }
 .icons-footer i{
-    margin:20px 100px;
+    margin:10px 100px;
 }
 .contact-me-info p{
     display: inline-block;
