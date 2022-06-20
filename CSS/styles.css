@@ -19,6 +19,12 @@ img{
 td{
     white-space:nowrap
 }
+.social{
+    color: #684a46;
+}
+.social:hover{
+    color: #684a46;
+}
 
 
 
@@ -41,16 +47,15 @@ td{
     margin: 0 10px;
 }
 #heading{
-    margin: 2rem auto;
-    position: absolute;
-    z-index: 1;
-    left: 0; 
-    top: 4rem;
-    right: 0; 
-    width: 400px;
     text-align: center;
     color: #684a46;
     font-family: 'Stencil Std', 'fantasy';
+    padding-top: 6rem;
+}
+.Heading{
+    font-weight: 500;
+    font-size: 150%;
+    color: #684a46;
 }
 .dot{
     animation: blink 2s infinite;
@@ -62,21 +67,24 @@ td{
 }
 
 /* skills */
+.antena{
+    color: rgba(255, 255, 255, 0.5);
+    transform: translate(-300%, -185%);
+    font-size: 500%;
+    animation: blink 2s infinite;
+    text-shadow: 0 0 15px #FF0000;
+}
+
 #skills{
     display: grid;
     place-items: center;
     background-image: url("../backgrounds/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 1080px;
     padding: 0 20px;
 }
-.Heading{
-    font-weight: 500;
-    font-size: 150%;
-    color: #684a46;
-}
-.skillsAndJourney{
-    padding: 10%;
-}
+
 
 .Text p{
     background-color: #c8a39a31;
@@ -132,6 +140,8 @@ td{
     place-items: center;
     text-align: center;
     background-image: url("../backgrounds/background4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 1080px;
     opacity: 0.9;
 
@@ -215,9 +225,12 @@ td{
     /* skills */
 
     .Text p{
-        margin: 40% 0;
+        margin: 10% 0;
     }
     .circle{
+        visibility: hidden;
+    }
+    .antena{
         visibility: hidden;
     }
 
